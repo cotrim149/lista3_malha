@@ -20,4 +20,7 @@ arquivos usados para compilação
 
 bun_zipper.off
 	Arquivo usado para guardar valores em float - pontos do desenho - e em inteiros  - cores e indices da face de cada ponto.
-	Cada linha representa um ponto e uma cor usada por este ponto.
+	Cada linha representa um ponto e uma cor usada por este ponto. Possui cabeçalho COFF, representando a existência de cores e valor de transparência.
+
+dragon.off
+	Possui cabeçalho OFF, representando a existência somente das coordenadas de cada ponto.
